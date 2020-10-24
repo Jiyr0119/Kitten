@@ -11,7 +11,7 @@ import {
 
 const BackIcon = (props) => <Icon {...props} name="arrow-back" />;
 
-const DetailsScreen = ({navigation}) => {
+export const DetailsScreen = ({navigation}) => {
   const navigateBack = () => {
     navigation.goBack();
   };
@@ -34,5 +34,3 @@ const DetailsScreen = ({navigation}) => {
     </SafeAreaView>
   );
 };
-
-export default DetailsScreen;
